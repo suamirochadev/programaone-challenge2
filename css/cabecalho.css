@@ -1,28 +1,20 @@
 .cabecalho {
+    width: 100%;
+    max-width: 70%;
     height: 88px;
-    font-size: 16px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    position:relative;
-
+    margin: 0 auto;
 }
 
 .cabecalho__logo {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    margin: 2em;
 }
 
 .cabecalho__navegacao {
 
     display: inline-block;
     text-align: center;
-     
+    color: var(--preto);
 }
 
 .cabecalho__lista {
@@ -40,7 +32,7 @@
 .cabecalho__link {
     text-decoration: none;
     text-transform: none;
-    
+    color: var(--preto);
     margin: 5px;
     padding-left: 19px;
 

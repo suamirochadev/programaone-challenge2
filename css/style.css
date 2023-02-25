@@ -20,6 +20,7 @@
 body {
     background-color: var(--branco);
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .container {
@@ -27,5 +28,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    position: relative;
 
 }

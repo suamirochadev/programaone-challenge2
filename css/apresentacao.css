@@ -1,9 +1,17 @@
 .apresentacao {
+    width: 100%;
+    max-width: 70%;
+    height: 3%;
+
     margin: 0 auto;
 }
 
 .apresentacao__selfie {
-
+    background-image: url(../assets/suami2.jpeg);
+    
+    width: 368px;
+    height: 368px;
+    left: 768px;
 }
 
 .apresentacao__titulo {
@@ -15,15 +23,14 @@
 }
 
 .apresentacao__lista {
-
 }
 
 .apresentacao__item {
-
+    
 }
 
 .apresentacao__link {
-
+    
 }
 
 .apresentacao__arrow {
