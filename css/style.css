@@ -1,0 +1,31 @@
+:root {
+    --branco: #F5F5F5;
+    --braco-acinzentado: #EDEDED;
+    --cinza-claro: #C8C8C8;
+    --cinza-escuro: #A2A2A2;
+    --preto: #464646;
+    --azul-claro: #EAF2FD;
+    --azul: #2A7AE4;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: var(--branco);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
