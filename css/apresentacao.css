@@ -3,36 +3,67 @@
     max-width: 70%;
     height: 3%;
 
+    order: 1;
+    padding: 3rem 0;
     margin: 0 auto;
 }
 
 .apresentacao__selfie {
+    order: 1;
+    position: relative;
+    flex: none;
+    flex-grow: 0;
+
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
     background-image: url(../assets/suami2.jpeg);
+    background-attachment: scroll;
+    filter:saturate(0%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.apresentacao__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     
-    width: 368px;
-    height: 368px;
-    left: 768px;
 }
 
 .apresentacao__titulo {
-
+    font-size: 2.5em;
+    font-weight: 700;
 }
 
 .apresentacao__descricao {
-
+    padding: .75em 0;
 }
 
 .apresentacao__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-right: 32px;
 }
 
 .apresentacao__item {
+    align-items: flex-end;
+    padding-right: 32px;
     
 }
 
 .apresentacao__link {
-    
+    text-decoration: underline;
+    align-items: flex-end;
 }
 
 .apresentacao__arrow {
-
+    
+    align-items: flex-end;
 }
