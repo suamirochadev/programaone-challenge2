@@ -6,6 +6,8 @@
     order: 1;
     padding: 3rem 0;
     margin: 0 auto;
+
+    color: var(--preto);
 }
 
 .apresentacao__selfie {
@@ -31,16 +33,23 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    
+    margin-right: auto;
+    padding: 0 1rem 0 0;
 }
 
 .apresentacao__titulo {
     font-size: 2.5em;
     font-weight: 700;
+    text-align: left;
+    line-height: 1.6;
 }
 
 .apresentacao__descricao {
-    padding: .75em 0;
+    text-align: left;
+    font-size: 22px;
+    margin: auto;
+    padding: 1rem 0;
+    line-height: 1.6;
 }
 
 .apresentacao__lista {
@@ -66,12 +75,12 @@
 .apresentacao__link {
     display: flex;
     justify-content:flex-end;
-    text-decoration: underline;
-    align-items: flex-end;
+    text-decoration: none;
+    text-transform: none;
+    align-items: center;
 
-}
+    color: var(--preto);
 
-.apresentacao__arrow {
+    font-weight: 500;
 
-    align-items: flex-end;
 }
