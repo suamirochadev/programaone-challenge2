@@ -32,9 +32,10 @@
     
 }
 
-li:last-child {
+.cabecalho__email {
     font-weight: 900;
 }
+
 
 .cabecalho__link {
     display: inline-block;

@@ -44,26 +44,34 @@
 }
 
 .apresentacao__lista {
+
     list-style: none;
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
     padding-right: 32px;
 }
 
 .apresentacao__item {
+    display: flex;
     align-items: flex-end;
     padding-right: 32px;
     
 }
 
 .apresentacao__link {
+    display: flex;
+    justify-content:flex-end;
     text-decoration: underline;
     align-items: flex-end;
+
 }
 
 .apresentacao__arrow {
-    
+
     align-items: flex-end;
 }
