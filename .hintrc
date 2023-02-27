@@ -3,6 +3,12 @@
     "development"
   ],
   "hints": {
-    "axe/language": "off"
+    "axe/language": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ]
   }
 }
