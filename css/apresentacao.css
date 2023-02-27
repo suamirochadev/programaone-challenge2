@@ -1,7 +1,7 @@
 .apresentacao {
     width: 100%;
     max-width: 85%;
-    height: 3%;
+    height: 2%;
 
     display: flex;
     flex-direction: row;
@@ -13,7 +13,7 @@
 
     order: 1;
     padding: 1rem; 
-    margin: 5rem;
+    margin: 1rem 5rem;
 
     color: var(--preto);
 }
