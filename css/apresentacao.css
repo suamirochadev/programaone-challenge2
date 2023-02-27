@@ -13,7 +13,7 @@
 
     order: 1;
     padding: 1rem; 
-    margin: 1rem 5rem;
+    margin: 1rem auto;
 
     color: var(--preto);
 }
@@ -21,25 +21,26 @@
 .apresentacao__selfie {
     order: 1;
     position: relative;
-    flex: none;
-    flex-grow: 0;
     flex-wrap: nowrap;
-
+     display: block;
     border-radius: 50%;
-    width: 25rem;
-    height: 25rem;
+
     background-image: url(../assets/suami2.jpeg);
-    background-attachment: scroll;
+    background-attachment:local;
     filter:saturate(0%);
     background-repeat: no-repeat;
-    background-size: cover;
-
-    padding: 2rem;
+    background-size:cover;
+    resize: none;
+    width: 20rem;
+    height: 15rem;
+    margin: 50px auto;
+    padding: 5rem;
 
     box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 .apresentacao__texto {
+    text-align: end;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
