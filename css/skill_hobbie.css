@@ -1,35 +1,43 @@
 .skill {
     background-color: var(--branco);
-    width: 100vw;
+    width: 100%;
     height: 9%;
-
-    padding: 6rem 6rem; 
-    margin: 0 auto;
 
     display: flex;
     flex-direction:column;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     align-items: center;
+
+    padding: 6rem 6rem; 
+    margin: 0 auto;
     
 
     position: relative;
 }
 
 .skill__titulo {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 0 2rem;
     font-size: 32px;
     font-weight: 700;
     color: var(--preto);
 }
 
 .skill__lista {
+    width: 100%;
     padding: 2rem 0rem;
     margin: 1rem 0rem;
 
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
+    align-content: center;
+ 
 
     font-weight: 700;
     font-size: 16px;
@@ -41,7 +49,7 @@
 }
 
 .skill__item {
-    width: 176px;
+    width: 100%;
     height: 174px;
 
     padding: 16px;
@@ -57,7 +65,7 @@
 .hobbie {
 
     background-color: var(--branco);
-    width: 100vw;
+    width: 100%;
     height: 9%;
 
     padding: 0 6rem; 
@@ -83,6 +91,7 @@
 }
 
 .hobbie__lista {
+    width: 100%;
     padding: 2rem 0rem;
     margin: 1rem 0rem;
 
@@ -100,7 +109,7 @@
 }
 
 .hobbie__item {
-    width: 176px;
+    width: 100%;
     height: 174px;
 
     padding: 16px;
