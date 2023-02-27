@@ -1,4 +1,5 @@
 .cabecalho {
+
     width: 100%;
     height: 88px;
 
@@ -7,18 +8,18 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
+
+    margin: 0 auto;
+    padding: 1rem;
 
     color: var(--preto);
-    gap: 40px;
 
-    position: relative;
-    /* padding: 4rem auto; */
-    /* margin: 0 auto; */
+    position:relative;
 }
 
 
 .cabecalho__navegacao {
+
     width: 100%;
     margin: 1rem;
     padding: 1rem;
@@ -27,10 +28,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
-
 
 }
 

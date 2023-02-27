@@ -20,17 +20,19 @@
 
 .apresentacao__selfie {
     order: 1;
-    position: relative;
+    
+    
+    display: flex;
     flex-wrap: nowrap;
-     display: block;
+
     border-radius: 50%;
 
     background-image: url(../assets/suami2.jpeg);
-    background-attachment:local;
+    background-attachment: scroll;
     filter:saturate(0%);
     background-repeat: no-repeat;
-    background-size:cover;
-    resize: none;
+    background-size:110% 130%;
+    
     width: 20rem;
     height: 15rem;
     margin: 50px auto;
@@ -95,4 +97,10 @@
 
     font-weight: 500;
 
+    cursor: pointer;
+
+}
+
+.apresentacao__link:hover {
+    color: var(--azul);
 }

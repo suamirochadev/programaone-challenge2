@@ -1,7 +1,7 @@
 .sobre {
     width: 100%;
 
-    padding: 3rem 6rem 3rem 6rem; 
+    padding: 6rem; 
     margin: 0 auto;
 
     display: flex;
@@ -42,9 +42,15 @@
 }
 
 .sobre__linkname {
+
     font-weight: 700;
+    cursor: pointer;
+
 }
 
+.sobre__link:hover {
+    color: var(--azul);
+}
 .sobre__link {
     color: var(--preto);
     text-decoration: none;
