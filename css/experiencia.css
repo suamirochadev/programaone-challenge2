@@ -40,7 +40,7 @@
 
 .experiencia__box:nth-child(odd) {
     
-    background-color: pink;
+    
     display: flex;
     flex-direction: row-reverse;
     justify-content:flex-end;
@@ -101,13 +101,13 @@
     padding: 0px;
     gap: 16px;
     
-    width: 560px;
-    height: 51px;
+
 }
 
 .experiencia__descricao:nth-child(odd) {
     flex-direction: row-reverse;
     justify-content: flex-start;
+
 }
 
 
@@ -135,8 +135,8 @@
     font-size: 16px;
     line-height: 19px;
 
-    background-color: var(--branco);
-
+    
+    background-color: var(--branco-acinzentado);
     color: var(--azul);
 }
 
