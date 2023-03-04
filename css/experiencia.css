@@ -33,8 +33,21 @@
     width: 1136px;
     height: 406px;
     
+    
+
+    
 }
 
+.experiencia__box:nth-child(odd) {
+    
+    background-color: pink;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
+    align-items: center;
+
+
+}
 
 /* CAPTURA DE PROJETO */
 .experiencia__img {
@@ -58,6 +71,14 @@
     gap: 8px;
 }
 
+.experiencia__info:nth-child(odd) {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+
+}
+
+
+
 .experiencia__titulo {
     
     font-size: 22px;
@@ -75,6 +96,7 @@
 .experiencia__descricao {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
     padding: 0px;
     gap: 16px;
@@ -82,6 +104,12 @@
     width: 560px;
     height: 51px;
 }
+
+.experiencia__descricao:nth-child(odd) {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
 
 .experiencia__repo {
 
@@ -107,7 +135,7 @@
     font-size: 16px;
     line-height: 19px;
 
-    
+    background-color: var(--branco);
 
     color: var(--azul);
 }
@@ -136,6 +164,7 @@
     font-size: 16px;
     line-height: 19px;
 
+    background-color: var(--azul);
     color: #fff;
     
 }
