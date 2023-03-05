@@ -96,6 +96,15 @@
     width: 656px;
     height: 56px;
 }
+/* input:hover {
+    Border: 1px solid #ccc
+} */
+/* input:focus {
+    border: 2px underline var(--azul)
+} */
+/* input:active {
+    border: 2px underline var(--azul)
+} */
 
 
 

@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+    
+    height: 102px;
+    background-color: var(--branco-claro);
+
+    
+}
+
+.footer__rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+    
+    height: 102px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto);
+
+    
+}
