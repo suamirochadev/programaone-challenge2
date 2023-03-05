@@ -11,7 +11,7 @@
     width: 100%;
     height: 788px;
 
-    background-color: var(--branco-acinzentado)
+    background-color: var(--azul-claro)
 }
 
 .formulario__contato {
@@ -59,12 +59,14 @@
     font-weight: 700;
     font-size: 32px;
     color: var(--preto);
+    
 }
 
 .formulario_subtexto {
     font-weight: 500;
     font-size: 16px;
     color: var(--preto);
+    margin: 20px 0;
 }
 
 .formulario__formulario {
@@ -75,10 +77,10 @@
     
  
     padding: 0px;
-    gap: 32px;
+    gap: 5px;
 
     width: 656px;
-    height: 397px;
+    
 }
 
 .formulario__input {
@@ -95,9 +97,16 @@
     height: 56px;
 }
 
+
+
 .formulario__textarea {
     border-radius: 5px;
     background-color: #fff;
+    padding: 10px;
+
+    
+    width: 656px;
+    height: 133px;
 
 }
 
@@ -118,4 +127,9 @@
 
     width: 165px;
     height: 51px;
+}
+.formulario__button:hover {
+    background-color: var(--azul-claro);
+    color: var(--preto);
+    transform: scale(1.2);
 }

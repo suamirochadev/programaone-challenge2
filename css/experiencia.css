@@ -126,6 +126,9 @@
     border: 1px solid var(--azul);
 
 }
+.experiencia__repo:hover {
+    background-color: #fff;
+}
 .experiencia__botao--repo {
     
 
@@ -136,6 +139,12 @@
     
     background-color: var(--branco-acinzentado);
     color: var(--azul);
+}
+.experiencia__botao--repo:hover {
+    background-color: var(--branco-claro);
+    color: var(--azul);
+
+    transform: scale(1.2);
 }
 
 .experiencia__demo {
@@ -151,8 +160,11 @@
     height: 51px;
 
     background: var(--azul);
-    
 
+}
+
+.experiencia__demo:hover {
+    background-color: #fff;
 }
 
 .experiencia__botao--demo {
@@ -165,4 +177,10 @@
     background-color: var(--azul);
     color: #fff;
     
+}
+
+.experiencia__botao--demo:hover {
+    background-color: var(--branco-claro);
+    color: var(--azul);
+    transform: scale(1.2);
 }
