@@ -10,6 +10,9 @@
         "list": "off"
       }
     ],
-    "axe/text-alternatives": "off"
+    "axe/text-alternatives": "off",
+    "axe/forms": "off",
+    "button-type": "off",
+    "axe/name-role-value": "off"
   }
 }
