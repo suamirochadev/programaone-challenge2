@@ -1,61 +1,57 @@
 .apresentacao {
-    width: 100%;
-    max-width: 85%;
-    height: 2%;
-
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
 
     position: relative;
 
-    order: 1;
-    padding: 1rem; 
-    margin: 1rem auto;
+    padding: 2rem 0rem; 
 
     color: var(--preto);
 }
 
-.apresentacao__selfie {
-    order: 1;
-    
-    
+.apresentacao__container {
+
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 
-    border-radius: 50%;
-
-    background-image: url(../assets/suami2.jpeg);
-    background-attachment: scroll;
-    filter:saturate(0%);
-    background-repeat: no-repeat;
-    background-size:110% 130%;
+    width: 1136px;
+    height: 368px;
+}
+.apresentacao__selfie {    
     
-    width: 20rem;
-    height: 15rem;
-    margin: 50px auto;
-    padding: 5rem;
+    border-radius: 50%;
+    background-image: url(../assets/suami2.jpeg);
+    
+    filter:saturate(0%);
+
+    background-size:120% 130%;
+    
+    width: 200px;
+    height: 200px;
+    max-width: auto;
+    max-height: auto;
 
     box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 .apresentacao__texto {
-    text-align: end;
+    width: 750px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-right: auto;
-    padding: 0 1rem 0 0;
+    
 }
 
 .apresentacao__titulo {
-    font-size: 32px;
+    font-size: 52px;
     font-weight: 700;
     text-align: left;
-    line-height: 1.6;
+    
 }
 
 .apresentacao__descricao {
@@ -67,22 +63,17 @@
 }
 
 .apresentacao__lista {
-
-    list-style: none;
     
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    align-items: center;
-    align-content: center;
     padding-right: 32px;
 }
 
 .apresentacao__item {
-    display: flex;
-    align-items: flex-end;
-    padding-right: 32px;
+    display: inline-block;
+    padding-right: 90px;
     
 }
 

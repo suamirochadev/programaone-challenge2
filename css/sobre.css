@@ -1,42 +1,46 @@
-.sobre {
-    width: 100%;
-
-    padding: 6rem; 
-    margin: 0 auto;
-
+.sobre{
+    
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 
-
-    position: relative;
+    
+    height: 383px;
+    
     color: var(--preto);
     background-color: var(--azul-claro);
+
+}
+
+.sobre__container {
+    max-width: 1136px;
+    height: 255px;
 }
 
 
 .sobre__titulo {
+
     font-size: 32px;
     font-weight: 700;
 
 }
 
 .sobre__descricao {
+
     font-size: 18px;
     font-weight: 400;
     line-height: 19px;
 
-    padding: 1rem 0;
-    margin: auto 0;
 }
 
 .sobre__lista {
+
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     line-height: 20px;
     
 }
@@ -49,18 +53,25 @@
 }
 
 .sobre__link:hover {
+
     color: var(--azul);
+
 }
 .sobre__link {
+
     color: var(--preto);
     text-decoration: none;
     padding-right: 1rem;
+
 }
 
 .sobre__assinatura {
-    width: 6.26rem;
-    height: 6.26rem;
+
+    transform: rotate(350deg);
+    width: 100px;
+    height: 100px;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+
 }

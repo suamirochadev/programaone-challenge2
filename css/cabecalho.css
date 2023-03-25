@@ -1,97 +1,75 @@
 .cabecalho {
-
-    width: 100%;
-    height: 88px;
-
+    
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
-    margin: 0 auto;
-    padding: 1rem;
-
+    
+    padding: 32px 0px;
+    
     color: var(--preto);
-
-    position:relative;
 }
 
 
 .cabecalho__navegacao {
 
-    width: 100%;
-    margin: 1rem;
-    padding: 1rem;
-
-    
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+    justify-content: space-between;
 
+    
 }
 
 .cabecalho__lista {
 
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
 
+    padding: 0px 0px 0px 60px;
     
     list-style-type: none;
-    
+
 }
 
-.cabecalho__logo {
-    padding: 5px;
-    margin: 5px;
-    
-}
 .cabecalho__titulo {
-    width: 100%;
+
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
 
-    padding: 5px;
+    white-space: nowrap;
+    padding-right: 10px;
 
     font-size: 16px;
     font-weight: 600;
 
-    text-decoration: none;
     color: var(--preto);
 
 }
 .cabecalho__titulo-link {
+
     text-decoration: none;
+    
     color: var(--preto);
     cursor: pointer;
 }
 
 .cabecalho__titulo-link:hover {
+
     color: var(--azul);
 }
 
-.cabecalho__lista {
-    width: 100%;
-    margin: .4em;
-    padding: 2px;
-
-    gap: 32px;
-}
 .cabecalho__item {
+    padding-left: 20px;
     font-size: 16px;
     color: var(--preto);
 }
 
 .cabecalho__link {
+
     text-decoration: none;
     text-transform: none;
 
@@ -103,6 +81,7 @@
 }
 
 .cabecalho__link:hover {
+    
     color: var(--azul);
 }
 
