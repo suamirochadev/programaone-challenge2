@@ -2,45 +2,31 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-
-    position: relative;
-
-    padding: 2rem 0rem; 
-
     color: var(--preto);
 }
 
 .apresentacao__container {
-
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-
     max-width: 1136px;
-    width: 100%;
-    height: 368px;
 }
-.apresentacao__selfie {    
-    
-    border-radius: 50%;
-    
+
+.apresentacao__selfie {
     width: auto;
     height: auto;
-    max-width: 200px;
-    max-height: 200px;
-
-    box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.1);
+    width: 100%;
+    
+    border-radius: 100%;
 }
 
 .apresentacao__texto {
-    width: 750px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .apresentacao__titulo {
@@ -53,24 +39,23 @@
 .apresentacao__descricao {
     text-align: left;
     font-size: 22px;
-    margin: auto;
-    padding: 1rem 0;
     line-height: 1.6;
 }
 
 .apresentacao__lista {
-    
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: nowrap;
-    padding-right: 32px;
+}
+
+.apresentacao__seta {
+    width: 24px;
+    height: 24px;
 }
 
 .apresentacao__item {
-    display: inline-block;
-    padding-right: 90px;
-    
+    display: inline-block;    
 }
 
 .apresentacao__link {
@@ -79,21 +64,61 @@
     text-decoration: none;
     text-transform: none;
     align-items: center;
-
     color: var(--preto);
-
     font-weight: 500;
-
     cursor: pointer;
-
 }
 
 .apresentacao__link:hover {
     color: var(--azul);
 }
 
+
+/* MEDIA QUERIE */
+
 @media (max-width: 768px) {
     .apresentacao__selfie {
-        
+        width: auto;
+        height: auto;
+        max-width: 146px;
+        max-height: 146px;
     }
+    
+}
+
+@media (max-width: 360px) {
+    .apresentacao__container {
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        max-width: 360px;
+        padding: 16px;
+        gap: 16px;
+    }
+    .apresentacao__selfie {
+        max-width: 98px;
+        max-height: 98px;
+    }
+    .apresentacao__titulo {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 22px;
+    }
+    .apresentacao__descricao {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .apresentacao__item {
+        font-size: 14px;
+    }
+    .apresentacao__texto {
+        max-width: 328px;
+        gap: 16px;
+    }
+    
+    .apresentacao__seta {
+        width: 16px;
+        height: 16px;
+    }
+
 }

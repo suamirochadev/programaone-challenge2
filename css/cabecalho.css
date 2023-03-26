@@ -94,6 +94,13 @@
 }
 
 @media (max-width: 480px) {
+    .cabecalho__lista {
+        padding: 0;
+    }
+    .cabecalho__item {
+        padding:0;
+    }
+    
 
 }
 
