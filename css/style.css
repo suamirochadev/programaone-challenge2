@@ -26,3 +26,10 @@ body {
     background-color: var(--branco);
     font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width: 768px) {
+    body {
+        max-width: 768px;
+        width: 100%;
+    }
+}

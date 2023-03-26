@@ -86,5 +86,14 @@
 }
 
 
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    .cabecalho__item--none {
+        display: none;
+    }
+}
 
+@media (max-width: 480px) {
+
+}
 
