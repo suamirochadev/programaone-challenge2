@@ -1,77 +1,115 @@
 .sobre{
-    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-
-    
-    height: 383px;
-    
     color: var(--preto);
     background-color: var(--azul-claro);
-
+    max-width: 1440px;
+    height: 420px;
 }
 
 .sobre__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     max-width: 1136px;
     height: 255px;
+    gap: 20px;
 }
 
 
 .sobre__titulo {
-
     font-size: 32px;
     font-weight: 700;
-
 }
 
 .sobre__descricao {
-
     font-size: 18px;
     font-weight: 400;
     line-height: 19px;
-
 }
 
 .sobre__lista {
-
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     line-height: 20px;
-    
 }
 
 .sobre__linkname {
-
     font-weight: 700;
     cursor: pointer;
-
 }
 
 .sobre__link:hover {
-
     color: var(--azul);
-
 }
 .sobre__link {
-
     color: var(--preto);
     text-decoration: none;
     padding-right: 1rem;
-
 }
 
 .sobre__assinatura {
-
     transform: rotate(350deg);
     width: 100px;
     height: 100px;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+}
 
+@media (max-width: 768px) {
+    .sobre {
+        width: 768px;
+        height: 450px;
+    }
+    .sobre__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 704px;
+        height: 415px;
+        
+    }
+    .sobre__assinatura {
+        width: 140px;
+        
+    }
+    .sobre__titulo{
+        font-size: 22px;
+    }
+    .sobre__descricao {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 360px;
+        height: 610px;
+    }
+    .sobre__container {
+        width: 328px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .sobre__titulo {
+        font-size: 22px;
+    }
+    .sobre__descricao {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
 }

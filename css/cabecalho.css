@@ -1,106 +1,99 @@
+/* header */
 .cabecalho {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    
-    padding: 32px 0px;
-    
-    color: var(--preto);
-}
-
-
-.cabecalho__navegacao {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+    color: var(--preto);
+}
 
-    
+/* nav */
+.cabecalho__navegacao {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .cabecalho__lista {
-
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-
-    padding: 0px 0px 0px 60px;
-    
     list-style-type: none;
-
 }
 
 .cabecalho__titulo {
-
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-
     white-space: nowrap;
-    padding-right: 10px;
-
     font-size: 16px;
     font-weight: 600;
-
     color: var(--preto);
-
 }
-.cabecalho__titulo-link {
 
-    text-decoration: none;
-    
+.cabecalho__titulo-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;    
     color: var(--preto);
     cursor: pointer;
 }
 
 .cabecalho__titulo-link:hover {
-
     color: var(--azul);
 }
 
 .cabecalho__item {
-    padding-left: 20px;
     font-size: 16px;
     color: var(--preto);
+    padding-right: 16px;
+}
+li:nth-child(7) {
+    font-weight: 700;
 }
 
 .cabecalho__link {
-
     text-decoration: none;
     text-transform: none;
-
     color: var(--preto);
-    font-weight: 500;
-
     cursor: pointer;
-
 }
 
 .cabecalho__link:hover {
-    
     color: var(--azul);
 }
-
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
     .cabecalho__item--none {
         display: none;
     }
+    .cabecalho__container {
+        width: 768px;
+    }
+
 }
 
 @media (max-width: 480px) {
+    .cabecalho__container {
+        width: 360px;
+    }
     .cabecalho__lista {
+
         padding: 0;
     }
     .cabecalho__item {
         padding:0;
     }
-    
 
 }
 
