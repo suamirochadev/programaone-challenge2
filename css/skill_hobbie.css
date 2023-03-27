@@ -94,21 +94,6 @@
     border-radius: 10px;
 }
 
-@media (max-width: 780px) {
-    .skill__container--container {
-    width: 326px;
-    height: 474px;
-    }
-    .skill__container {
-    width: 324px;
-    height: 118px;
-    }
-    .skill__item {
-    width: 156px;
-    height: 172px;
-    }
-}
-
 /* MEDIA QUERIES */
 
 @media (max-width:780px) {
@@ -167,7 +152,7 @@
         justify-content: space-between;
         align-items: center;
         width: 360px;
-        height: 665px;
+        height: 1033px;
         padding: 1rem;
         }
         .skill__container {
