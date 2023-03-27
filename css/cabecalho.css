@@ -83,16 +83,16 @@ li:nth-child(7) {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     .cabecalho__container {
         width: 360px;
     }
     .cabecalho__lista {
-
         padding: 0;
     }
     .cabecalho__item {
         padding:0;
+        font-size: 14px;
     }
 
 }

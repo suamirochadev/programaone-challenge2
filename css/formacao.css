@@ -1,10 +1,10 @@
 .formacao {    
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--azul-claro);
-    gap: 32px;
+    height: 581px;
 }
 
 .formacao__titulo {
