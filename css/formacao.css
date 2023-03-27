@@ -67,6 +67,9 @@
     font-weight: 500;
 }
 
+
+/* MEDIA QUERIES */
+
 @media (max-width:780px) {
     .formacao {
         width: 768px;

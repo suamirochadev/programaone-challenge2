@@ -63,6 +63,8 @@
     align-items: flex-end;
 }
 
+/* MEDIA QUERIES */
+
 @media (max-width: 768px) {
     .sobre {
         width: 768px;
@@ -74,11 +76,9 @@
         justify-content: center;
         width: 704px;
         height: 415px;
-        
     }
     .sobre__assinatura {
         width: 140px;
-        
     }
     .sobre__titulo{
         font-size: 22px;

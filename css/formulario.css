@@ -1,82 +1,54 @@
 .formulario {
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
     height: 788px;
-
     background-color: var(--azul-claro)
 }
-
 .formulario__contato {
-
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 16px;    
-    
+    gap: 16px;       
 }
-
 .formulario__esquerda {
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 1rem;
-
 }
-
 .formulario__imagem {
-
     background-image: url(./../assets/formulario/telefone.png);
     width: 464px;
     height: 593px;
     border-radius: 10px;
-
 }
-
 .formulario__texto {
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
-
     width: 650px;
     height: 596px;
-
 }
-
 .formulario__titulo {
-
     font-weight: 700;
     font-size: 32px;
-
-    color: var(--preto);
-    
+    color: var(--preto);   
 }
-
 .formulario_subtexto {
-
     font-weight: 500;
     font-size: 16px;
-
-    color: var(--preto);
-    
+    color: var(--preto);   
 }
-
 .formulario__formulario {
-
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: stretch;
-    
     gap: 15px;
-    
 }
 textarea, input {
     border: 1px;
@@ -94,12 +66,9 @@ select:focus {
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
-    
     border-radius: 10px;
-
     width: 656px;
     height: 56px;
-
 }
 .formulario__input:focus {
     border: 3px solid var(--azul);
@@ -107,13 +76,11 @@ select:focus {
 }
 
 .formulario__textarea {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fff;
     padding: 10px;
-    
     width: 656px;
     height: 133px;
-
 }
 .formulario__textarea:focus {
     outline: none;
@@ -124,20 +91,16 @@ select:focus {
 }
 .formulario__button {
     background-color: var(--azul);
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-self: center;
     align-items: center;
-    
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-
     cursor: pointer;
     text-decoration: none;
-
     width: 165px;
     height: 51px;
 }
@@ -146,4 +109,106 @@ select:focus {
     border: 1px solid var(--azul);
     color: var(--azul);
     transform: scale(1.2);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 780px) {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 768px;
+        height: 637px;
+    }
+    .formulario__contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        width: 704px;
+        height: 573px;
+    }
+    label {
+        display: none;
+    }
+    .formulario__texto {
+        display: flex;
+        justify-content: space-evenly;
+        width: 656px;
+        height: 532px;
+    }
+    .formulario__titulo {
+        font-size: 22px;
+    }
+    .formulario_subtexto {
+        font-size: 16px;
+        width: 656px;
+    }
+    .formulario__formulario {
+        width: 656px;
+        height: 397px;
+    }
+    .formulario__input {
+        width: 600px;
+        height: 56px;
+    }
+    .formulario__textarea {
+        width: 600px;
+        height: 133px;
+    }
+    .formulario__esquerda {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 360px;
+        height: 777px;
+    }
+    .formulario__contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        width: 296px;
+        height: 575px;
+    }
+    label {
+        display: none;
+    }
+    .formulario__texto {
+        display: flex;
+        justify-content: space-evenly;
+        width: 296px;
+        height: 573px;
+    }
+    .formulario__titulo {
+        font-size: 22px;
+    }
+    .formulario_subtexto {
+        font-size: 16px;
+        width: 296px;
+        height: 76px;
+    }
+    .formulario__formulario {
+        width: 296px;
+        height: 397px;
+    }
+    .formulario__input {
+        width: 296px;
+        height: 56px;
+    }
+    .formulario__textarea {
+        width: 296px;
+        height: 133px;
+    }
+    .formulario__esquerda {
+        display: none;
+    }
+
 }

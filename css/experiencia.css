@@ -1,6 +1,5 @@
 /* SEÇÃO DE EXPERIENCIA PROFISSIONAL/PROJETOS */
 .experiencia {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,48 +7,37 @@
 }
 
 .experiencia__container {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     height: 1886px;
     width: 1136px;
-
     gap: 32px;
-
 }
 
 .experiencia__section-titulo {
-
     font-size: 32px;
     font-weight: 700;
     align-items: center;
-
     color: var(--preto);
 }
 
 .experiencia__box {
-
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 16px;
-    
     width: 1136px;
     height: 406px;
-
 }
 
 .experiencia__box:nth-child(odd) {
-    
     display: flex;
     flex-direction: row-reverse;
     justify-content:flex-end;
     align-items: center;
-
 }
 
 /* CAPTURA DE PROJETO */
@@ -72,17 +60,13 @@
     justify-content: flex-end;
 }
 
-
-
 .experiencia__titulo {
-    
     font-size: 22px;
     font-weight: 700;
     color: var(--preto);
 }
 
 .experiencia__texto {
-    
     font-size: 16px;
     font-weight: 500;
     color: var(--preto);
@@ -93,8 +77,6 @@
     align-items: center;
     padding: 0px;
     gap: 16px;
-    
-
 }
 
 .experiencia__descricao:nth-child(odd) {
@@ -146,6 +128,9 @@
     transform: scale(1.2);
 }
 
+/* MEDIA QUERIES */
+
+
 @media (max-width:780px) {
     .experiencia {
         width: 768px;
@@ -166,10 +151,10 @@
         gap: 16px;
     }
     .experiencia__box:nth-child(odd) {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
     }
     
     .experiencia__section-titulo {
@@ -229,22 +214,20 @@
         flex-direction: column;
         justify-content:space-around;
         align-items: flex-start;
-        background-color: deeppink;
         width: 296px;
         height: 251px;
     }
     .experiencia__box:nth-child(odd) {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
     }
     
     .experiencia__section-titulo {
         font-size: 22px;
     }
     .experiencia__info{
-        background-color: aquamarine;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -269,12 +252,12 @@
         justify-content: flex-start;
     }
     .experiencia__botao--demo {
-        width: 96px;
+        width: 150px;
         height: 40px;
         font-size: 14px;
     }
     .experiencia__botao--repo {
-        width: 96px;
+        width: 150px;
         height: 40px;
         font-size: 14px;
     }

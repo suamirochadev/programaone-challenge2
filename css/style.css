@@ -18,13 +18,14 @@
     vertical-align:baseline;
     list-style:none;
     border:0;
-    outline:1px solid red;
 }
 
 body {
     background-color: var(--branco);
     font-family: 'Montserrat', sans-serif;
 }
+
+/* MEDIA QUERIES */
 
 @media (max-width: 768px) {
     body {
